@@ -42,6 +42,14 @@ response = requests.get(
 )
 ```
 
+OR
+
+```python
+response = requests.get(
+    url="http://0.0.0.0:8000/api/login?apikey=fd8b4a98c8f53035aeab410258430e2d86079c93"
+)
+```
+
 
 ### Tests
     
