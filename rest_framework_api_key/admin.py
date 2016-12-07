@@ -29,4 +29,5 @@ class ApiKeyAdmin(admin.ModelAdmin):
 
         obj.save()
 
+
 admin.site.register(APIKey, ApiKeyAdmin)
